@@ -19,6 +19,7 @@
             extend: {
               colors: {
                 clifford: '#da373d',
+                btnuse: '#F85559'
               }
             }
           }
@@ -30,7 +31,7 @@
         }
       </style>
 </head>
-<body>
+<body class="bg-slate-100">
 <header>
 
     <!-- navber section  -->
@@ -157,8 +158,8 @@
 
 </header>
 
-<main>
-<section class="space-y-96 py-20 lato">
+<main class="m-6">
+<section class="max-w-screen-xl mx-auto space-y-96 py-20 lato">
     <div>
         <div class="flex flex-col md:flex-row items-center justify-center md:justify-between md:px-12 lg:px-20">
             <div class="space-y-4 text-center md:text-start px-12 md:p-0">
@@ -202,29 +203,129 @@
 </section>
 
 
-<section>
-    <div>
-        <div>
-            <div class="card w-96 bg-base-100 shadow-xl">
+<section class="max-w-screen-xl mx-auto">
+    <div class="text-center space-y-3">
+        <div class="flex w-auto flex-col md:flex-row justify-around items-center space-x-3 space-y-4">
+            <div class="card w-80 h-[480px] bg-base-100 shadow-xl">
                 <figure class="px-10 pt-10">
-                  <img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" class="rounded-xl" />
+                  <img src="/images/fruit6.png" alt="Shoes" class="rounded-xl" />
                 </figure>
-                <div class="card-body items-center text-center">
-                  <h2 class="card-title">Shoes!</h2>
-                  <p>If a dog chews shoes whose shoes does he choose?</p>
+                
+                <div class="card-body items-center text-center space-y-3">
+                    <hr class="w-2/3 text-center">
+                  <h2 class="card-title">12.90$ - 18.85$</h2>
+                  <p class="grow-0">Apple</p>
                   <div class="card-actions">
-                    <button class="btn btn-primary">Buy Now</button>
+                    <div class="rating rating-md rating-half">
+                        <input type="radio" name="rating-10" class="rating-hidden" />
+                        <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" checked />
+                        <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+                      </div>
                   </div>
+                  <h3 class="text-[#F85559] font-bold cursor-pointer">Details</h3>
+                </div>
+              </div>
+
+              <div class="card w-80 h-[480px] bg-base-100 shadow-xl">
+                <figure class="px-10 pt-10">
+                  <img src="/images/fruit7.png" alt="Shoes" class="rounded-xl" />
+                </figure>
+                
+                <div class="card-body items-center text-center space-y-3">
+                    <hr class="w-2/3 text-center">
+                  <h2 class="card-title">12.90$ - 15.85$</h2>
+                  <p class="grow-0">Orange</p>
+                  <div class="card-actions">
+                    <div class="rating rating-md rating-half">
+                        <input type="radio" name="rating-10" class="rating-hidden" />
+                        <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" checked />
+                        <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+                      </div>
+                  </div>
+                  <h3 class="text-[#F85559] font-bold cursor-pointer">Details</h3>
+                </div>
+              </div>
+
+              <div class="card w-80 h-[480px] bg-base-100 shadow-xl">
+                <figure class="px-10 pt-10">
+                  <img src="/images/fruit8.png" alt="Shoes" class="rounded-xl" />
+                </figure>
+                
+                <div class="card-body items-center text-center space-y-3">
+                    <hr class="w-2/3 text-center">
+                  <h2 class="card-title">11.90$ - 18.85$</h2>
+                  <p class="grow-0">Red Dragon</p>
+                  <div class="card-actions">
+                    <div class="rating rating-md rating-half">
+                        <input type="radio" name="rating-10" class="rating-hidden" />
+                        <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" checked />
+                        <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+                      </div>
+                  </div>
+                  <h3 class="text-[#F85559] font-bold cursor-pointer">Details</h3>
+                </div>
+              </div>
+
+              <div class="card w-80 h-[480px] bg-base-100 shadow-xl">
+                <figure class="px-10 pt-10">
+                  <img src="/images/fruit9.png" alt="Shoes" class="rounded-xl" />
+                </figure>
+                
+                <div class="card-body items-center text-center space-y-3">
+                    <hr class="w-2/3 text-center">
+                  <h2 class="card-title">10.90$ - 13.85$</h2>
+                  <p class="grow-0">Banana</p>
+                  <div class="card-actions">
+                    <div class="rating rating-md rating-half">
+                        <input type="radio" name="rating-10" class="rating-hidden" />
+                        <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" checked />
+                        <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+                      </div>
+                  </div>
+                  <h3 class="text-[#F85559] font-bold cursor-pointer">Details</h3>
                 </div>
               </div>
         </div>
+        <button class="text-center btn btn-error text-white font-bold">Shop All</button>
     </div>
 </section>
 
 </main>
 
-<footer>
-    <div>
+<footer class="bg-neutral-focus">
+    <div class="max-w-screen-xl mx-auto">
         <footer class="footer footer-center p-10 bg-neutral-focus text-white">
             <div class="flex">
              <img src="./images/logo.png" alt="" srcset="">
